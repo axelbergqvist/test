@@ -34,7 +34,6 @@ body {
             animation: fadein 3s;
 
 }
-
 @keyframes fadein {
     from { opacity: 0; }
     to   { opacity: 1; }
@@ -278,3 +277,15 @@ p {
     -webkit-animation-name: fadeInUp;
     animation-name: fadeInUp
   }
+
+.logo p{
+  display: inline-block;
+    font-size: 56px;
+    animation: color-change 5s infinite;
+    text-align: center;
+    line-height: 88px;
+    height: 88px;
+    width: 88px;
+    background: black;
+    border-radius: 20px;
+}
